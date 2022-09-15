@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Press+Start+2P&display=swap");
 body {
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ body {
 }
 section {
   text-align: center;
-  background-color: khaki;
+  background-color: #4f533a;
   height: 80vh;
   width: 100%;
 }
@@ -33,13 +33,13 @@ section div {
   border: 2px solid #333029;
   display: inline-block;
   cursor: pointer;
-  color: #6b0f0f;
+  color: #4f533a;
   font-family: "Press Start 2P", cursive;
   font-size: 0.7rem;
   font-weight: bold;
   padding: 12px 16px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #ffffff;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5); */
 }
 .myButton:hover {
   background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
@@ -63,9 +63,10 @@ header h1 {
   color: tan;
   text-align: center;
   font-family: "Press Start 2P", cursive;
+  margin-top: 3.5vh;
 }
 footer {
-  height: 3vh;
+  height: 4vh;
   background-color: black;
   border-top: 1vh solid tan;
   width: 100%;
@@ -74,11 +75,11 @@ section div img {
   height: auto;
   border-radius: 3px;
   width: 100%;
-  box-shadow: 5px 5px 23px 0px rgba(0, 0, 0, 0.67);
+  box-shadow: 5px 5px 23px 0px rgba(0, 0, 0, 0.9);
 }
 .kit i {
   position: fixed;
-  color: #000000;
+  color: tan;
   font-size: 2rem;
 }
 #helmet-icon {
@@ -106,4 +107,11 @@ section div img {
 #weapon img {
   max-height: 60px;
   margin-top: 0.5vh;
+}
+footer p {
+  color: tan;
+  text-align: center;
+  margin-top: 0.5vh;
+  font-size: smaller;
+  font-family: "Nabla", cursive;
 }
