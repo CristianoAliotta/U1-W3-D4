@@ -56,21 +56,21 @@ function getRandomInteger(min, max) {
 
 function randomWeapon() {
   let randomIndex = getRandomInteger(0, weapons.length - 1);
-  let wLink = weapons[randomIndex];
-  document.getElementById("random-weapon").src = wLink;
+  let Link = weapons[randomIndex];
+  document.getElementById("random-weapon").src = Link;
 }
 function randomHelmet() {
   let randomIndex = getRandomInteger(0, helmet.length - 1);
-  let wLink = helmet[randomIndex];
-  document.getElementById("random-helmet").src = wLink;
+  let Link = helmet[randomIndex];
+  document.getElementById("random-helmet").src = Link;
 }
 function randomHeadset() {
   let randomIndex = getRandomInteger(0, headset.length - 1);
-  let wLink = headset[randomIndex];
-  document.getElementById("random-headset").src = wLink;
+  let Link = headset[randomIndex];
+  document.getElementById("random-headset").src = Link;
 }
 function randomArmor() {
   let randomIndex = getRandomInteger(0, armor.length - 1);
-  let wLink = armor[randomIndex];
-  document.getElementById("random-armor").src = wLink;
+  let Link = armor[randomIndex];
+  document.getElementById("random-armor").src = Link;
 }
