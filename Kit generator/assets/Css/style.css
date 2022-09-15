@@ -3,18 +3,24 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
   width: 100%;
+  height: 100vh;
   margin: 0;
 }
 section {
   text-align: center;
   background-color: khaki;
+  height: 80vh;
+  width: 100%;
 }
 section div {
-  height: 20vh;
+  width: 40%;
+  margin: 0 auto;
 }
 .button {
   height: 8vh;
+  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,9 +34,8 @@ section div {
   display: inline-block;
   cursor: pointer;
   color: #6b0f0f;
-  /* font-family: Arial; */
   font-family: "Press Start 2P", cursive;
-  font-size: 14px;
+  font-size: 0.7rem;
   font-weight: bold;
   padding: 12px 16px;
   text-decoration: none;
@@ -44,9 +49,13 @@ section div {
   position: relative;
   top: 1px;
 }
+.myButton i {
+  font-size: 1.3rem;
+}
 
 header {
   height: 15vh;
+  width: 100%;
   background-color: black;
   border-bottom: 1vh solid tan;
 }
@@ -56,18 +65,45 @@ header h1 {
   font-family: "Press Start 2P", cursive;
 }
 footer {
-  height: 10vh;
+  height: 3vh;
   background-color: black;
   border-top: 1vh solid tan;
+  width: 100%;
 }
 section div img {
-  height: 10rem;
-}
-#random-weapon {
-  width: auto;
   height: auto;
+  border-radius: 3px;
+  width: 100%;
+  box-shadow: 5px 5px 23px 0px rgba(0, 0, 0, 0.67);
 }
-#random-armor {
-  width: 41%;
-  max-width: 160px;
+.kit i {
+  position: fixed;
+  color: #000000;
+  font-size: 2rem;
+}
+#helmet-icon {
+  top: 31vh;
+  left: 11vw;
+}
+#headset-icon {
+  top: 50vh;
+  left: 11vw;
+}
+#shield-icon {
+  top: 69.5vh;
+  left: 11vw;
+}
+#rifle-icon {
+  position: fixed;
+  top: 83vh;
+  left: 11vw;
+}
+#armor,
+#armor img {
+  max-height: 156px;
+}
+#weapon,
+#weapon img {
+  max-height: 60px;
+  margin-top: 0.5vh;
 }

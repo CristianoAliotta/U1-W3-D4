@@ -5,26 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Css/style.css" />
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5ae1de6ea9.js" crossorigin="anonymous"></script>
+    <title>Random Tarkov kit generator</title>
   </head>
+
+  <!-- PROGETTATO PER IPHONE 12 , RESPONSIVITà ANCORA NON COMPLETAMENTE IMPLEMENTATA -->
+
   <body>
     <header>
       <h1>Tarkov kit generator</h1>
     </header>
     <section>
       <div class="button">
-        <button class="myButton" onclick="randomHelmet(); randomHeadset(); randomArmor(); randomWeapon()">Get your Loadout</button>
+        <button class="myButton" onclick="randomHelmet(); randomHeadset(); randomArmor(); randomWeapon()">Get your Loadout <i class="fa-sharp fa-solid fa-parachute-box"></i></button>
       </div>
-      <div>
+      <div class="kit">
+        <i id="helmet-icon" class="fa-solid fa-helmet-safety"></i>
         <img id="random-helmet" />
       </div>
-      <div>
+      <div class="kit">
+        <i id="headset-icon" class="fa-solid fa-headset"></i>
         <img id="random-headset" />
       </div>
-      <div>
+      <div id="armor" class="kit">
+        <i id="shield-icon" class="fa-solid fa-shield-halved"></i>
         <img id="random-armor" />
       </div>
-      <div>
+      <div id="weapon" class="kit">
+        <i id="rifle-icon" class="fa-solid fa-person-rifle"></i>
         <img id="random-weapon" />
       </div>
     </section>
