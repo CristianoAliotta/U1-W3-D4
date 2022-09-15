@@ -78,7 +78,7 @@ section div img {
   box-shadow: 5px 5px 23px 0px rgba(0, 0, 0, 0.9);
 }
 .kit i {
-  position: fixed;
+  position: absolute;
   color: tan;
   font-size: 2rem;
 }
@@ -95,7 +95,6 @@ section div img {
   left: 11vw;
 }
 #rifle-icon {
-  position: fixed;
   top: 83vh;
   left: 11vw;
 }
