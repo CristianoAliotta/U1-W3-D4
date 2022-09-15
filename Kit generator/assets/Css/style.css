@@ -25,6 +25,6 @@ section div img {
   height: 10rem;
 }
 #random-weapon {
-  width: 70%;
-  height: 7rem;
+  width: auto;
+  height: auto;
 }
